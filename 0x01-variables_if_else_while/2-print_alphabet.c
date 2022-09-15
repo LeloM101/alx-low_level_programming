@@ -3,16 +3,16 @@
 #include <stdlib.h>
 
 /**
-* main - Entry point
+* Description: main - prints out only lower case lettes to stout.
 *
-* Retur: always 0 (success)
+* Return: always 0 (success)
 */
 
 int main(void)
 {
 char low;
 
-for (low = 'a'; low <= 'z'; low++);
+for (low = 'a'; low <= 'z'; low++)
 putchar(low);
 putchar('\n');
 

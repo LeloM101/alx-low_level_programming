@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+* main - print out two digits of diffrent combinations. The progam cannot have two combinations that mirrior one another or have the same number
+*
+* Return: Always 0 (success)
+*/
+
+int mai(void)
+{
+int m;
+
+for (m = '0'; m <= '9'; m++)
+{
+putchar(m);
+if (m != '9')
+{
+putchar(',');
+putchar(' ');
+}
+
+putchar('\n');
+
+return (0);
+}

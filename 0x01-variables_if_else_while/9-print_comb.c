@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
-* main - print out single digits followed by a space and comma digits of diffrent combinations.
+* main - single digits comma and space
 *
 * Return: Always 0 (success)
 */
 
-int mai(void)
+int main(void)
 {
 int m;
 
@@ -19,6 +19,7 @@ if (m != '9')
 {
 putchar(',');
 putchar(' ');
+}
 }
 
 putchar('\n');

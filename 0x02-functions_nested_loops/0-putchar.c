@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <time.h>
-#include <main.h>
+#include "main.h"
 
 /**
 * main - printing word with putchar
@@ -10,7 +8,15 @@
 
 int main(void)
 {
-putchar("_putchar")
+_putchar("_");
+_putchar("p");
+_putchar("u");
+_putchar("t");
+_putchar("c");
+_putchar("h");
+_putchar("a");
+_putchar("r");
+_putchar("\n");
 
-return (0)
+return (0);
 }

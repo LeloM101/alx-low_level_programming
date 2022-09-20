@@ -20,4 +20,5 @@ aux = s[i];
 s[i++] = s[len];
 s[len] = aux;
 }
+ return (0)
 }

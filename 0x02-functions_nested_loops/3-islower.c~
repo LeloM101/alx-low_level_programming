@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+* _islower - check description
+* Description: check for lowercase characters
+* @c: a character argument
+*/
+int _islower(int c)
+{
+int c;
+for (c = 'a'; c <= 'z'; c++)
+{
+if (c = 'c')
+return (1);
+}
+ return (0);
+}

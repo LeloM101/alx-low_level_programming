@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
-* void print_alphabet_x10(void) - check description
-* Decription: prints the alphabet ten times
+* print_alphabet_x10 - check description
+* Decription: function uses _putchar to print
+* prints the alphabet ten times
+* Return: 0 (Success)
 */
 
 void print_alphabet_x10(void)

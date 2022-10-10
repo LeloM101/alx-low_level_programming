@@ -8,14 +8,12 @@
 */
 int main(void)
 {
-int d; int e
-for (d = 0; d < 10; d++)
+int d;
+for (d = 0; d < 100; d++)
 {
-for (e = 0; e < 10; e++)
-{
+putchar((d / 10) + '0');
 putchar((d % 10) + '0');
-putchar((e % 10) + '0');
-if (d == 9 && e ==9)
+if (d != 99)
 continue;
 {
 putchar(',');

@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* rev_string - a function that reverse a string
+* print_rev - a function that reverse a string
 * followed by a new line.
 * @s: an input string
 * Return: Nothing
 */
-void rev_string(char *s)
+void print_rev(char *s)
 
 {
 int len = 0;

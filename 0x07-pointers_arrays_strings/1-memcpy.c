@@ -15,6 +15,6 @@ while (n--)
 src++;
 dest++;
 }
-return (dest);
+return (d);
 }
 
